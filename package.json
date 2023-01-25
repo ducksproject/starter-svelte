@@ -2,6 +2,10 @@
   "name": "starter-sveltejs",
   "version": "1.0.0",
   "private": true,
+  "engines": {
+    "npm": ">=14.0.0",
+    "node": ">=16.0.0 <17.0.0"
+  },
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
@@ -19,6 +23,8 @@
     "svelte": "^3.0.0"
   },
   "dependencies": {
+    "@radixdlt/connect-button": "^0.10.1",
+    "@radixdlt/wallet-sdk": "^0.5.2",
     "express": "^4.17.3",
     "sirv-cli": "^2.0.0"
   }
