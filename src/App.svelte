@@ -1,32 +1,59 @@
 <script>
+    import NavBar from "./NavBar.svelte";
+	import NightModeButton from "./NightModeButton.svelte";
+	import Content from "./Content.svelte";
+	import Footer from "./Footer.svelte";
+
 	export let name;
-	console.log("eeeeeeeeee");
+	window.addEventListener("resize", function() {
+		window.resizeTo(window.innerWidth, window.innerHeight);
+	});
 </script>
 
+<svelte:head>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
+	<meta name="viewport" content="width=1024">
+	<meta name="viewport" content="width=device-width, initial-scale=1.1">
+	<title>Radix web App - Ducks Mafia</title>
+	<link href='Gamepixies-8MO6n.ttf' rel='stylesheet' type='text/css'>
+</svelte:head>
+
+
 <main>
-	<radix-connect-button />
-	<h1>Hello {name}!</h1>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
+	<div style="display: flex;">
+		<div style="width: 75%; background-color: lightblue; border-radius: 25px 25px 0px 0px;">
+			<h6 style="margin: 15px 5% 5px 5%; font-weight: 700;"><a href="https://twitter.com/ducksmafiaxrd" target="_blank">The Duck Mafia</a> invites you to join its web3 community P2E game hosted on <a href="https://www.radixdlt.com/" target="_blank">RadixDLT, a place where DeFi can thrive.</a></h6>
+		</div>
+		<div style="width: 5%;margin: 5px">
+			<NightModeButton></NightModeButton>
+		</div>
+		<div style="width: 20%; margin: 0.1em; width: 172px;margin-left:50px">
+			<radix-connect-button/>
+		</div>
+	</div>
+	<NavBar></NavBar>
+	
+	<Content></Content>
+
+	<Footer></Footer>
+
+	<script  src="./script.js"></script>
 </main>
 
 <style>
-	main {
-		text-align: center;
-		padding: 1em;
-		max-width: 240px;
-		margin: 0 auto;
+	body{
+	font-family: 'Roboto', sans-serif;
 	}
 
-	h1 {
-		color: #ff3e00;
-		text-transform: uppercase;
-		font-size: 4em;
-		font-weight: 100;
+	:global(body) {
+		background-color: #f2ce2ecf;
+		color: #0084f6;
+		transition: background-color 0.3s
 	}
-
-	@media (min-width: 640px) {
-		main {
-			max-width: none;
-		}
+	:global(body.dark-mode) {
+		background-color: #1d3040;
+		color: #4d963f;
 	}
 </style>
