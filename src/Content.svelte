@@ -10,7 +10,7 @@
 
 <style>
     .content {
-        background-image: url('http://localhost:3002/background.png');
+        background-image: url('/background.png');
         width: 100%;
         min-height: 500px;
         opacity: 0.8;
