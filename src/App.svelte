@@ -15,7 +15,6 @@
 
 
 	<meta name="viewport" content="width=1024">
-	<meta name="viewport" content="width=device-width, initial-scale=1.1">
 	<title>Radix web App - Ducks Mafia</title>
 	<link href='Gamepixies-8MO6n.ttf' rel='stylesheet' type='text/css'>
 </svelte:head>
