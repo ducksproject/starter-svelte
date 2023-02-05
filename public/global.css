@@ -1,3 +1,13 @@
+@font-face {
+	font-family: Bungee;
+	src: url(Bungee-Regular.ttf);
+}
+
+:root {
+	--font-family : "Open Sans", sans-serif;
+	--font-family2 : "Bungee", cursive;
+}
+
 html, body {
 	position: relative;
 	width: 100%;

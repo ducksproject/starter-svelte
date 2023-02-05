@@ -43,6 +43,10 @@
 </nav>
 
 <style>
+    nav {
+        font-family: var(--font-family2);
+    }
+
     .ducktLogo {
         width:  70px;
     }

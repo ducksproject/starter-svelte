@@ -17,14 +17,13 @@
 	<meta name="viewport" content="width=1024">
 	<meta name="viewport" content="width=device-width, initial-scale=1.1">
 	<title>Radix web App - Ducks Mafia</title>
-	<script src="https://cdn.tailwindcss.com"></script>
 	<link href='Gamepixies-8MO6n.ttf' rel='stylesheet' type='text/css'>
 </svelte:head>
 
 
 <main>
 	<div style="display: flex;">
-		<div style="width: 75%; background-color: lightblue; border-radius: 25px 25px 0px 0px;">
+		<div class="Uppopup" style="width: 75%; background-color: lightblue; border-radius: 25px 25px 0px 0px;">
 			<h6 style="margin: 15px 5% 5px 5%; font-weight: 700;"><a href="https://twitter.com/ducksmafiaxrd" target="_blank">The Duck Mafia</a> invites you to join its web3 community P2E game hosted on <a href="https://www.radixdlt.com/" target="_blank">RadixDLT, a place where DeFi can thrive.</a></h6>
 		</div>
 		<div style="width: 5%;margin: 5px">
@@ -46,6 +45,10 @@
 <style>
 	body{
 	font-family: 'Roboto', sans-serif;
+	}
+
+	.Uppopup {
+		font-family: "Open Sans", sans-serif;
 	}
 
 	:global(body) {
