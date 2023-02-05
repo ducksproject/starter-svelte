@@ -31,7 +31,7 @@
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1 2"/>
               <div class="mask">
               </div><div class="inbox">
-                <div class="intInbox" style="">
+                <div class="intInbox flexBoxA" style="">
                     <div style="border-radius: 25px; margin: 10%;background-color: #adfeff; min-width: 80%; min-height: 80%" class="">
                       <div style="font-size: 1.3em;font-weight: 800;color: #0b1824;font-family: var(--font-family); text-align: center;width: 90%; margin: 5%">
                         <u>$DUCKT price :</u> <a href="#">?</a>
@@ -106,6 +106,13 @@
       overflow-x: hidden;
       
     }
+
+.flexBoxA {
+  overflow: scroll;
+  overflow-x: scroll;
+  
+}
+    
 
     .intInbox::-webkit-scrollbar
     {
