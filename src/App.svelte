@@ -13,8 +13,6 @@
 <svelte:head>
 	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
-
 	<title>Radix web App - Ducks Mafia</title>
 	<link href='Gamepixies-8MO6n.ttf' rel='stylesheet' type='text/css'>
 </svelte:head>
