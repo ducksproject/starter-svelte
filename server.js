@@ -16,7 +16,7 @@ var options = {
 }
 app.use(express.static('public', options))
 
-const port = process.env.PORT || 3002
+const port = process.env.PORT || 3010
 
 app.listen(port, () => {
   console.log(`Svelte app listening at http://localhost:${port}`)
