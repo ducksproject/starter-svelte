@@ -447,7 +447,6 @@ var app = (function () {
     const file$4 = "src/NavBar.svelte";
 
     function create_fragment$4(ctx) {
-    	let meta;
     	let link0;
     	let link1;
     	let t0;
@@ -499,7 +498,6 @@ var app = (function () {
 
     	const block = {
     		c: function create() {
-    			meta = element("meta");
     			link0 = element("link");
     			link1 = element("link");
     			t0 = space();
@@ -548,101 +546,97 @@ var app = (function () {
     			a6 = element("a");
     			i5 = element("i");
     			t16 = text("Docs & Links");
-    			attr_dev(meta, "name", "viewport");
-    			attr_dev(meta, "content", "width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0");
-    			add_location(meta, file$4, 5, 1, 71);
     			attr_dev(link0, "rel", "stylesheet");
     			attr_dev(link0, "href", "bootstrap.min.css");
-    			add_location(link0, file$4, 6, 1, 199);
+    			add_location(link0, file$4, 5, 1, 71);
     			attr_dev(link1, "rel", "stylesheet");
     			attr_dev(link1, "href", "./navbarstyle.css");
-    			add_location(link1, file$4, 7, 1, 249);
+    			add_location(link1, file$4, 6, 1, 121);
     			attr_dev(img, "class", "ducktLogo svelte-p88dtj");
     			set_style(img, "margin-right", "25px");
     			set_style(img, "margin-left", "25px");
     			if (!src_url_equal(img.src, img_src_value = "logo.gif")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "logo");
-    			add_location(img, file$4, 11, 4, 374);
+    			add_location(img, file$4, 10, 4, 246);
     			attr_dev(a0, "class", "navbar-brand navbar-logo");
     			attr_dev(a0, "href", "#");
     			set_style(a0, "text-decoration", "none");
     			set_style(a0, "color", "white");
     			set_style(a0, "font-weight", "700");
-    			add_location(a0, file$4, 13, 4, 475);
+    			add_location(a0, file$4, 12, 4, 347);
     			attr_dev(path, "d", "M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z");
-    			add_location(path, file$4, 15, 257, 1001);
+    			add_location(path, file$4, 14, 257, 873);
     			attr_dev(svg, "xmlns", "http://www.w3.org/2000/svg");
     			attr_dev(svg, "width", "40");
     			attr_dev(svg, "height", "40");
     			attr_dev(svg, "viewBox", "0 0 448 512");
-    			add_location(svg, file$4, 15, 4, 748);
+    			add_location(svg, file$4, 14, 4, 620);
     			attr_dev(button, "class", "navbar-toggler");
     			attr_dev(button, "type", "button");
     			attr_dev(button, "aria-controls", "navbarSupportedContent");
     			attr_dev(button, "aria-expanded", "false");
     			attr_dev(button, "aria-label", "Toggle navigation");
-    			add_location(button, file$4, 14, 4, 606);
+    			add_location(button, file$4, 13, 4, 478);
     			attr_dev(div0, "class", "left");
-    			add_location(div0, file$4, 19, 39, 1477);
+    			add_location(div0, file$4, 18, 39, 1349);
     			attr_dev(div1, "class", "right");
-    			add_location(div1, file$4, 19, 63, 1501);
+    			add_location(div1, file$4, 18, 63, 1373);
     			attr_dev(div2, "class", "hori-selector");
-    			add_location(div2, file$4, 19, 12, 1450);
+    			add_location(div2, file$4, 18, 12, 1322);
     			attr_dev(i0, "class", "fas fa-tachometer-alt");
-    			add_location(i0, file$4, 22, 63, 1664);
+    			add_location(i0, file$4, 21, 63, 1536);
     			attr_dev(a1, "class", "nav-link");
     			attr_dev(a1, "href", "javascript:void(0);");
-    			add_location(a1, file$4, 22, 16, 1617);
+    			add_location(a1, file$4, 21, 16, 1489);
     			attr_dev(li0, "class", "nav-item active dashboardItem");
-    			add_location(li0, file$4, 21, 12, 1558);
+    			add_location(li0, file$4, 20, 12, 1430);
     			attr_dev(i1, "class", "fas fa-tachometer-alt");
-    			add_location(i1, file$4, 25, 63, 1830);
+    			add_location(i1, file$4, 24, 63, 1702);
     			attr_dev(a2, "class", "nav-link");
     			attr_dev(a2, "href", "javascript:void(0);");
-    			add_location(a2, file$4, 25, 16, 1783);
+    			add_location(a2, file$4, 24, 16, 1655);
     			attr_dev(li1, "class", "nav-item");
-    			add_location(li1, file$4, 24, 12, 1745);
+    			add_location(li1, file$4, 23, 12, 1617);
     			attr_dev(i2, "class", "fas fa-tachometer-alt");
-    			add_location(i2, file$4, 28, 63, 2008);
+    			add_location(i2, file$4, 27, 63, 1880);
     			attr_dev(a3, "class", "nav-link");
     			attr_dev(a3, "href", "javascript:void(0);");
-    			add_location(a3, file$4, 28, 16, 1961);
+    			add_location(a3, file$4, 27, 16, 1833);
     			attr_dev(li2, "class", "nav-item");
-    			add_location(li2, file$4, 27, 12, 1923);
+    			add_location(li2, file$4, 26, 12, 1795);
     			attr_dev(i3, "class", "fas fa-tachometer-alt");
-    			add_location(i3, file$4, 31, 63, 2172);
+    			add_location(i3, file$4, 30, 63, 2044);
     			attr_dev(a4, "class", "nav-link");
     			attr_dev(a4, "href", "javascript:void(0);");
-    			add_location(a4, file$4, 31, 16, 2125);
+    			add_location(a4, file$4, 30, 16, 1997);
     			attr_dev(li3, "class", "nav-item");
-    			add_location(li3, file$4, 30, 12, 2087);
+    			add_location(li3, file$4, 29, 12, 1959);
     			attr_dev(i4, "class", "far fa-image");
-    			add_location(i4, file$4, 34, 63, 2340);
+    			add_location(i4, file$4, 33, 63, 2212);
     			attr_dev(a5, "class", "nav-link");
     			attr_dev(a5, "href", "javascript:void(0);");
-    			add_location(a5, file$4, 34, 16, 2293);
+    			add_location(a5, file$4, 33, 16, 2165);
     			attr_dev(li4, "class", "nav-item");
-    			add_location(li4, file$4, 33, 12, 2255);
+    			add_location(li4, file$4, 32, 12, 2127);
     			attr_dev(i5, "class", "fa fa-link");
-    			add_location(i5, file$4, 38, 63, 2516);
+    			add_location(i5, file$4, 37, 63, 2388);
     			attr_dev(a6, "class", "nav-link");
     			attr_dev(a6, "href", "javascript:void(0);");
-    			add_location(a6, file$4, 38, 16, 2469);
+    			add_location(a6, file$4, 37, 16, 2341);
     			attr_dev(li5, "class", "nav-item");
-    			add_location(li5, file$4, 37, 12, 2431);
+    			add_location(li5, file$4, 36, 12, 2303);
     			attr_dev(ul, "class", "navbar-nav ml-auto");
-    			add_location(ul, file$4, 18, 8, 1406);
+    			add_location(ul, file$4, 17, 8, 1278);
     			attr_dev(div3, "class", "collapsingBar collapse navbar-collapse svelte-p88dtj");
     			attr_dev(div3, "id", "navbarSupportedContent");
-    			add_location(div3, file$4, 17, 4, 1317);
+    			add_location(div3, file$4, 16, 4, 1189);
     			attr_dev(nav, "class", "navbar navbar-expand-custom navbar-mainbg svelte-p88dtj");
-    			add_location(nav, file$4, 10, 0, 314);
+    			add_location(nav, file$4, 9, 0, 186);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
     		},
     		m: function mount(target, anchor) {
-    			append_dev(document.head, meta);
     			append_dev(document.head, link0);
     			append_dev(document.head, link1);
     			insert_dev(target, t0, anchor);
@@ -695,7 +689,6 @@ var app = (function () {
     		i: noop,
     		o: noop,
     		d: function destroy(detaching) {
-    			detach_dev(meta);
     			detach_dev(link0);
     			detach_dev(link1);
     			if (detaching) detach_dev(t0);
@@ -1776,7 +1769,6 @@ var app = (function () {
     function create_fragment(ctx) {
     	let script0;
     	let script0_src_value;
-    	let meta;
     	let link;
     	let t0;
     	let main;
@@ -1810,7 +1802,6 @@ var app = (function () {
     	const block = {
     		c: function create() {
     			script0 = element("script");
-    			meta = element("meta");
     			link = element("link");
     			t0 = space();
     			main = element("main");
@@ -1838,49 +1829,45 @@ var app = (function () {
     			script1 = element("script");
     			if (!src_url_equal(script0.src, script0_src_value = "https://code.jquery.com/jquery-3.6.0.min.js")) attr_dev(script0, "src", script0_src_value);
     			add_location(script0, file, 13, 1, 344);
-    			attr_dev(meta, "name", "viewport");
-    			attr_dev(meta, "content", "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes");
-    			add_location(meta, file, 15, 1, 414);
     			document.title = "Radix web App - Ducks Mafia";
     			attr_dev(link, "href", "Gamepixies-8MO6n.ttf");
     			attr_dev(link, "rel", "stylesheet");
     			attr_dev(link, "type", "text/css");
-    			add_location(link, file, 18, 1, 569);
+    			add_location(link, file, 16, 1, 458);
     			attr_dev(a0, "href", "https://twitter.com/ducksmafiaxrd");
     			attr_dev(a0, "target", "_blank");
-    			add_location(a0, file, 25, 57, 855);
+    			add_location(a0, file, 23, 57, 744);
     			attr_dev(a1, "href", "https://www.radixdlt.com/");
     			attr_dev(a1, "target", "_blank");
-    			add_location(a1, file, 25, 194, 992);
+    			add_location(a1, file, 23, 194, 881);
     			set_style(h6, "margin", "15px 5% 5px 5%");
     			set_style(h6, "font-weight", "700");
-    			add_location(h6, file, 25, 3, 801);
+    			add_location(h6, file, 23, 3, 690);
     			attr_dev(div0, "class", "Uppopup svelte-elqnxo");
     			set_style(div0, "width", "75%");
     			set_style(div0, "background-color", "lightblue");
     			set_style(div0, "border-radius", "25px 25px 0px 0px");
-    			add_location(div0, file, 24, 2, 693);
+    			add_location(div0, file, 22, 2, 582);
     			set_style(div1, "width", "5%");
     			set_style(div1, "margin", "5px");
-    			add_location(div1, file, 27, 2, 1105);
-    			add_location(radix_connect_button, file, 31, 3, 1265);
+    			add_location(div1, file, 25, 2, 994);
+    			add_location(radix_connect_button, file, 29, 3, 1154);
     			set_style(div2, "width", "20%");
     			set_style(div2, "margin", "0.1em");
     			set_style(div2, "width", "172px");
     			set_style(div2, "margin-left", "50px");
-    			add_location(div2, file, 30, 2, 1191);
+    			add_location(div2, file, 28, 2, 1080);
     			set_style(div3, "display", "flex");
-    			add_location(div3, file, 23, 1, 662);
+    			add_location(div3, file, 21, 1, 551);
     			if (!src_url_equal(script1.src, script1_src_value = "./script.js")) attr_dev(script1, "src", script1_src_value);
-    			add_location(script1, file, 40, 1, 1370);
-    			add_location(main, file, 22, 0, 654);
+    			add_location(script1, file, 38, 1, 1259);
+    			add_location(main, file, 20, 0, 543);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
     		},
     		m: function mount(target, anchor) {
     			append_dev(document.head, script0);
-    			append_dev(document.head, meta);
     			append_dev(document.head, link);
     			insert_dev(target, t0, anchor);
     			insert_dev(target, main, anchor);
@@ -1924,7 +1911,6 @@ var app = (function () {
     		},
     		d: function destroy(detaching) {
     			detach_dev(script0);
-    			detach_dev(meta);
     			detach_dev(link);
     			if (detaching) detach_dev(t0);
     			if (detaching) detach_dev(main);
