@@ -44,11 +44,11 @@
                         <br>
                         
                       </div>
-                      <div style="width: 80%; margin-left: 10%;margin-right: 10%; background-color: #ffd000; text-align: center; font-family: var(--font-family2); text-decoration: none;font-size: 1.5em;font-weight: 500;" class="">
-                        <a href="#" style=";color: #a23351">Buy DUCKTS</a>
+                      <div style="border-radius: 15px;width: 80%; margin-left: 10%;margin-right: 10%; background-color: #ffd000; text-align: center; font-family: var(--font-family2); text-decoration: none;font-size: 1.5em;font-weight: 500;" class="">
+                        <a href="https://ociswap.com/ducks-mafia/" style=";color: #a23351">Buy DUCKTS</a>
                       </div>
-                      <div style="margin-top: 10px;width: 80%; margin-left: 10%;margin-right: 10%; background-color: #ffd000; text-align: center; font-family: var(--font-family2); text-decoration: none;font-size: 1.5em;font-weight: 500;" class="">
-                        <a href="#" style=";color: #a23351">Buy a Nursery</a>
+                      <div style="border-radius: 15px;margin-top: 10px;width: 80%; margin-left: 10%;margin-right: 10%; background-color: #ffd000; text-align: center; font-family: var(--font-family2); text-decoration: none;font-size: 1.5em;font-weight: 500;" class="">
+                        <a href="#" style=";color: #a23351">Claim/Buy a Nursery</a>
                       </div>
                       <hr style="background-color: black; width: 60%; margin: 20%">
                       <div style="text-align:center;width: 20%; margin: 0.1em; width: 172px;margin-left:50px">
@@ -84,7 +84,7 @@
               <div class="mask">
               </div><div class="inbox">
                 <div class="intInbox flexBox">
-                  <h1 style="display : block; font-family: var(--font-family2);text-align:center;color: #062441; text-decoration: none"><a href="#">Docs</a></h1>
+                  <h1 style="display : block; font-family: var(--font-family2);text-align:center;color: #062441; text-decoration: none"><a href="#docs">Docs</a></h1>
                   <img style="width: 70%;display: block;margin: auto;" src="docs.png" />
                 </div>
               </div>

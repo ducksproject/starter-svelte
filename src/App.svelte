@@ -1,12 +1,38 @@
 <script>
     import NavBar from "./NavBar.svelte";
 	import NightModeButton from "./NightModeButton.svelte";
-	import Content from "./Content.svelte";
+	import Dashboard from "./Dashboard.svelte";
+	import Docs from "./Docs.svelte";
+	import Construction from "./Construction.svelte";
 	import Footer from "./Footer.svelte";
 
 	export let name;
 	window.addEventListener("resize", function() {
 		window.resizeTo(window.innerWidth, window.innerHeight);
+	});
+
+	import { onMount } from "svelte";
+	let showDashboard = false;
+	let showDocs = false;
+	let showMinigames = false;
+	let showFarm = false;
+	let showLeaderboard = false;
+	let showStaking = false;
+
+	function updateA() {
+		showDashboard = window.location.hash.includes('dashboard');
+		showDocs = window.location.hash.includes('docs');
+		showMinigames = window.location.hash.includes('minigames');
+		showFarm = window.location.hash.includes('farm');
+		showLeaderboard = window.location.hash.includes('leaderboard');
+		showStaking = window.location.hash.includes('staking');
+	}
+
+	window.location.hash = '';
+
+	onMount(() => {
+		updateA();
+		window.addEventListener('hashchange', updateA);
 	});
 </script>
 
@@ -32,7 +58,21 @@
 	</div>
 	<NavBar></NavBar>
 	
-	<Content></Content>
+	{#if showDashboard}
+		<Dashboard></Dashboard>
+	{:else if showDocs}
+		<Docs></Docs>
+	{:else if showMinigames}
+		<Construction></Construction>
+	{:else if showFarm}
+		<Construction></Construction>
+	{:else if showLeaderboard}
+		<Construction></Construction>
+	{:else if showStaking}
+		<Construction></Construction>
+	{:else}
+		<Dashboard></Dashboard>
+	{/if}
 
 	<Footer></Footer>
 
@@ -55,6 +95,6 @@
 	}
 	:global(body.dark-mode) {
 		background-color: #1d3040;
-		color: #4d963f;
+		color: #5161ce;
 	}
 </style>

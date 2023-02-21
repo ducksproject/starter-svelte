@@ -19,23 +19,23 @@
             <div class="hori-selector"><div class="left"></div><div class="right"></div></div>
             
             <li class="nav-item active dashboardItem">
-                <a class="nav-link" href="javascript:void(0);"><i class="fas fa-tachometer-alt"></i>Dashboard</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="javascript:void(0);"><i class="fas fa-tachometer-alt"></i>Robberies and attacks</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="javascript:void(0);"><i class="fas fa-tachometer-alt"></i>Nursery</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="javascript:void(0);"><i class="fas fa-tachometer-alt"></i>Leaderboard</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="javascript:void(0);"><i class="far fa-image"></i>Passive staking</a>
+                <a class="nav-link" href="#dashboard"><i class="fas fa-tachometer-alt"></i>Dashboard</a>
             </li>
             
             <li class="nav-item">
-                <a class="nav-link" href="javascript:void(0);"><i class="fa fa-link"></i>Docs & Links</a>
+                <a class="nav-link" href="#docs"><i class="fa fa-link"></i>Docs & Links</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#minigames"><i class="fas fa-tachometer-alt"></i><strike>Minigames</strike></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#farm"><i class="fas fa-tachometer-alt"></i><strike>Farm</strike></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#leaderboard"><i class="fas fa-tachometer-alt"></i><strike>Leaderboard</strike></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#staking"><i class="far fa-image"></i><strike>Passive staking</strike></a>
             </li>
         </ul>
     </div>
